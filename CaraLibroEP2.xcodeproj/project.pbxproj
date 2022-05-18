@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21E524728354927005DC5EB /* RegistrerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E524628354927005DC5EB /* RegistrerViewController.swift */; };
 		D82D538B28346E68008F751B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82D538A28346E68008F751B /* LoginViewController.swift */; };
 		D8FE9D4928344A640050B189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D4828344A640050B189 /* AppDelegate.swift */; };
 		D8FE9D4B28344A640050B189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D4A28344A640050B189 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B21E524628354927005DC5EB /* RegistrerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrerViewController.swift; sourceTree = "<group>"; };
 		D82D538A28346E68008F751B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D8FE9D4528344A640050B189 /* CaraLibroEP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraLibroEP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FE9D4828344A640050B189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D8FE9D5328344A670050B189 /* LaunchScreen.storyboard */,
 				D8FE9D5628344A670050B189 /* Info.plist */,
 				D82D538A28346E68008F751B /* LoginViewController.swift */,
+				B21E524628354927005DC5EB /* RegistrerViewController.swift */,
 			);
 			path = CaraLibroEP2;
 			sourceTree = "<group>";
@@ -105,7 +108,7 @@
 				};
 			};
 			buildConfigurationList = D8FE9D4028344A640050B189 /* Build configuration list for PBXProject "CaraLibroEP2" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -143,6 +146,7 @@
 				D82D538B28346E68008F751B /* LoginViewController.swift in Sources */,
 				D8FE9D4D28344A640050B189 /* ViewController.swift in Sources */,
 				D8FE9D4928344A640050B189 /* AppDelegate.swift in Sources */,
+				B21E524728354927005DC5EB /* RegistrerViewController.swift in Sources */,
 				D8FE9D4B28344A640050B189 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
