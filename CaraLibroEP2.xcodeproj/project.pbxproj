@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82D538B28346E68008F751B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82D538A28346E68008F751B /* LoginViewController.swift */; };
 		D8FE9D4928344A640050B189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D4828344A640050B189 /* AppDelegate.swift */; };
 		D8FE9D4B28344A640050B189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D4A28344A640050B189 /* SceneDelegate.swift */; };
 		D8FE9D4D28344A640050B189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D4C28344A640050B189 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D82D538A28346E68008F751B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D8FE9D4528344A640050B189 /* CaraLibroEP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraLibroEP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FE9D4828344A640050B189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8FE9D4A28344A640050B189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				D8FE9D5128344A660050B189 /* Assets.xcassets */,
 				D8FE9D5328344A670050B189 /* LaunchScreen.storyboard */,
 				D8FE9D5628344A670050B189 /* Info.plist */,
+				D82D538A28346E68008F751B /* LoginViewController.swift */,
 			);
 			path = CaraLibroEP2;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82D538B28346E68008F751B /* LoginViewController.swift in Sources */,
 				D8FE9D4D28344A640050B189 /* ViewController.swift in Sources */,
 				D8FE9D4928344A640050B189 /* AppDelegate.swift in Sources */,
 				D8FE9D4B28344A640050B189 /* SceneDelegate.swift in Sources */,
@@ -288,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CaraLibroEP2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CaraLibroEP2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
