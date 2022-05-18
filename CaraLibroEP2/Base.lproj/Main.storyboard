@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -148,17 +149,9 @@
                             <outletCollection property="gestureRecognizers" destination="06z-5h-lRM" appends="YES" id="XMx-rN-nSU"/>
                         </connections>
                     </view>
-                    <connections>
-                        <outlet property="anchorContentCenterY" destination="dBV-QS-Icv" id="Sxd-Uv-R6q"/>
-                        <outlet property="viewContent" destination="C0p-xh-5n7" id="yjn-ow-rCG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="06z-5h-lRM">
-                    <connections>
-                        <action selector="tapToCloseKeyboardWithSender:" destination="BYZ-38-t0r" id="Sai-Sa-B1W"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="06z-5h-lRM"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="52.901785714285715"/>
         </scene>
