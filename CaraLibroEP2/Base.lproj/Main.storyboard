@@ -79,7 +79,7 @@
         <!--Registrar View Controller-->
         <scene sceneID="dBc-uH-6f7">
             <objects>
-                <viewController id="UOf-gA-DAU" customClass="RegistrarViewController" sceneMemberID="viewController">
+                <viewController id="UOf-gA-DAU" customClass="RegistrarViewController" customModule="CaraLibroEP2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ndl-k4-1Qi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

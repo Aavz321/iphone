@@ -9,7 +9,7 @@ import UIKit
 import FirebaseAnalytics
 import FirebaseAuth
 
-class AuthViewController:UIViewController{
+class RegistrarViewController:UIViewController{
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
