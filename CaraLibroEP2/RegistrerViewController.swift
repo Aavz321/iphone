@@ -34,9 +34,10 @@ class RegistrarViewController:UIViewController{
                 (result, error) in
                 
                 if let result = result, error == nil{
-                    let controller = VerificacionViewController()
-                    self.navigationController?
-                        .pushViewController(controller, animated: true)
+                    let alertController2 = UIAlertController(title: "Registrado", message: "Se ha registrado correctamente", preferredStyle: .alert)
+                    alertController2.addAction(UIAlertAction(title: "Aceptar", style: .default))
+                    
+                    self.present(alertController2, animated: true, completion: nil)
                 }else{
                     let alertController = UIAlertController(title: "Error", message: "Se ha producido un error registrando el usuario", preferredStyle: .alert)
                     alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))

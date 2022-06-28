@@ -36,7 +36,7 @@ class LoginViewController: UIViewController {
                         .pushViewController(controller, animated: true)
                     */
                 }else{
-                    let alertController = UIAlertController(title: "Error", message: "Se ha producido un error registrando el usuario", preferredStyle: .alert)
+                    let alertController = UIAlertController(title: "Error", message: "Se ha producido un error al loguearse", preferredStyle: .alert)
                     alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))
                     
                     self.present(alertController, animated: true, completion: nil)
