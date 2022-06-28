@@ -124,7 +124,6 @@
                                 <state key="normal" title="Siguiente"/>
                                 <connections>
                                     <action selector="SignUpButtonAction:" destination="UOf-gA-DAU" eventType="touchUpInside" id="gvH-ny-Qku"/>
-                                    <segue destination="17s-IP-9Tj" kind="show" id="z67-04-B5U"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaM-iA-fs8">
@@ -213,7 +212,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKG-dO-5Ol" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-39.130434782608695" y="793.52678571428567"/>
+            <point key="canvasLocation" x="-52" y="794"/>
         </scene>
         <!--Verificacion View Controller-->
         <scene sceneID="xGG-pL-vmV">
@@ -224,26 +223,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresa el código que enviamos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYj-No-8oA">
-                                <rect key="frame" x="5" y="128" width="404" height="74"/>
+                                <rect key="frame" x="5" y="84" width="404" height="74"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kc-ni-lKk">
-                                <rect key="frame" x="5" y="207" width="404" height="30"/>
+                                <rect key="frame" x="5" y="163" width="404" height="30"/>
                                 <state key="normal" title="Cambiar número de telèfono"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCE-N4-C6N">
-                                <rect key="frame" x="5" y="242" width="404" height="30"/>
+                                <rect key="frame" x="5" y="198" width="404" height="30"/>
                                 <state key="normal" title="reenviar correo"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Código de confirmación" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qo2-JU-WS3">
-                                <rect key="frame" x="20" y="277" width="374" height="34"/>
+                                <rect key="frame" x="20" y="233" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyr-bt-knU">
-                                <rect key="frame" x="50" y="358" width="314" height="30"/>
+                                <rect key="frame" x="50" y="314" width="314" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Siguiente"/>
@@ -257,7 +256,7 @@
                                 <state key="normal" title="Inicia sesión"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caralibro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywk-VH-Cs4">
-                                <rect key="frame" x="5" y="438" width="404" height="45.5"/>
+                                <rect key="frame" x="5" y="394" width="404" height="45.5"/>
                                 <fontDescription key="fontDescription" name="FONTSPRINGDEMO-BlueVinylRegular" family="FONTSPRING DEMO - Blue Vinyl" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -592,6 +591,7 @@
                                         </state>
                                         <connections>
                                             <action selector="LoginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tk5-EP-TOs"/>
+                                            <segue destination="L7G-o8-vjz" kind="show" id="hzR-Zh-Oci"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtF-of-Bsq">
@@ -720,7 +720,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="06z-5h-lRM"/>
+                <tapGestureRecognizer id="06z-5h-lRM">
+                    <connections>
+                        <action selector="TapToCloseKeyboard:" destination="BYZ-38-t0r" id="hSc-qa-TgI"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-1831.875" y="372.5"/>
         </scene>
@@ -865,7 +869,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miembros" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n56-32-gWH">
-                                <rect key="frame" x="50" y="94" width="133" height="37"/>
+                                <rect key="frame" x="50" y="138" width="133" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
