@@ -26,6 +26,7 @@
 		D880C5712862867C00915650 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D880C5702862867C00915650 /* FirebaseMessaging */; };
 		D880C5752862867C00915650 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D880C5742862867C00915650 /* FirebaseStorage */; };
 		D880C5772862867C00915650 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = D880C5762862867C00915650 /* FirebaseDynamicLinks */; };
+		D8AD38F7286B90C600E62291 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD38F6286B90C600E62291 /* HomeViewController.swift */; };
 		D8FE9D4928344A640050B189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D4828344A640050B189 /* AppDelegate.swift */; };
 		D8FE9D4B28344A640050B189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D4A28344A640050B189 /* SceneDelegate.swift */; };
 		D8FE9D4D28344A640050B189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D4C28344A640050B189 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		D84BA51A2835F111008932A1 /* Restablecer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restablecer.swift; sourceTree = "<group>"; };
 		D8663DEA2862B74E000B023D /* VerificacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificacionViewController.swift; sourceTree = "<group>"; };
 		D866BDBE28638F6200DE6446 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8AD38F6286B90C600E62291 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D8FE9D4528344A640050B189 /* CaraLibroEP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraLibroEP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FE9D4828344A640050B189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8FE9D4A28344A640050B189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				B21E524628354927005DC5EB /* RegistrerViewController.swift */,
 				D84BA51A2835F111008932A1 /* Restablecer.swift */,
 				D8663DEA2862B74E000B023D /* VerificacionViewController.swift */,
+				D8AD38F6286B90C600E62291 /* HomeViewController.swift */,
 			);
 			path = CaraLibroEP2;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				D8663DEB2862B74E000B023D /* VerificacionViewController.swift in Sources */,
 				D84BA51B2835F111008932A1 /* Restablecer.swift in Sources */,
 				D82D538B28346E68008F751B /* LoginViewController.swift in Sources */,
+				D8AD38F7286B90C600E62291 /* HomeViewController.swift in Sources */,
 				D8FE9D4D28344A640050B189 /* ViewController.swift in Sources */,
 				D8FE9D4928344A640050B189 /* AppDelegate.swift in Sources */,
 				B21E524728354927005DC5EB /* RegistrerViewController.swift in Sources */,

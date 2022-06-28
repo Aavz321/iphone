@@ -552,10 +552,10 @@
             </objects>
             <point key="canvasLocation" x="-2651" y="343"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CaraLibroEP2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="CaraLibroEP2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -590,6 +590,9 @@
                                         <state key="normal" title="Iniciar Sesión">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="LoginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tk5-EP-TOs"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtF-of-Bsq">
                                         <rect key="frame" x="50" y="341" width="314" height="30"/>
@@ -711,6 +714,10 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="d5P-KT-kHw"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="yaB-5h-U5L" id="35I-nj-dru"/>
+                        <outlet property="passwordTextField" destination="bwE-AZ-CC9" id="4TC-gm-Uga"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="06z-5h-lRM"/>
@@ -847,7 +854,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o3G-E2-RdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1830.4347826086957" y="1111.6071428571429"/>
+            <point key="canvasLocation" x="-2365" y="1118"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="EwQ-tr-PhG">
+            <objects>
+                <viewController id="L7G-o8-vjz" customClass="HomeViewController" customModule="CaraLibroEP2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i5a-ON-mX8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miembros" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n56-32-gWH">
+                                <rect key="frame" x="50" y="94" width="133" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QBz-DQ-iSG"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="n56-32-gWH" firstAttribute="top" secondItem="QBz-DQ-iSG" secondAttribute="top" constant="50" id="2hJ-pw-a2F"/>
+                            <constraint firstItem="n56-32-gWH" firstAttribute="leading" secondItem="QBz-DQ-iSG" secondAttribute="leading" constant="50" id="Tdp-oc-ONj"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="gHk-5l-heV" appends="YES" id="xeM-T6-jkL"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="xDG-D6-4Zz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sRX-6R-E4L" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gHk-5l-heV"/>
+            </objects>
+            <point key="canvasLocation" x="-1317.3913043478262" y="1116.9642857142856"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.35585932170000001" green="0.4637305699" blue="0.40316074270000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
