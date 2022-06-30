@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C4B76782835ABAB0064BA72 /* Demo_Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B76772835ABAB0064BA72 /* Demo_Fonts */; };
 		B21E524728354927005DC5EB /* RegistrerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E524628354927005DC5EB /* RegistrerViewController.swift */; };
+		D80567D1286D22DD005A0EDB /* RecuperarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80567D0286D22DD005A0EDB /* RecuperarViewController.swift */; };
 		D82D538B28346E68008F751B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82D538A28346E68008F751B /* LoginViewController.swift */; };
 		D84BA51B2835F111008932A1 /* Restablecer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84BA51A2835F111008932A1 /* Restablecer.swift */; };
 		D8663DEB2862B74E000B023D /* VerificacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8663DEA2862B74E000B023D /* VerificacionViewController.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		7C4B76772835ABAB0064BA72 /* Demo_Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Demo_Fonts; sourceTree = "<group>"; };
 		B21E524628354927005DC5EB /* RegistrerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrerViewController.swift; sourceTree = "<group>"; };
+		D80567D0286D22DD005A0EDB /* RecuperarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperarViewController.swift; sourceTree = "<group>"; };
 		D82D538A28346E68008F751B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D84BA51A2835F111008932A1 /* Restablecer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restablecer.swift; sourceTree = "<group>"; };
 		D8663DEA2862B74E000B023D /* VerificacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificacionViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				D84BA51A2835F111008932A1 /* Restablecer.swift */,
 				D8663DEA2862B74E000B023D /* VerificacionViewController.swift */,
 				D8AD38F6286B90C600E62291 /* HomeViewController.swift */,
+				D80567D0286D22DD005A0EDB /* RecuperarViewController.swift */,
 			);
 			path = CaraLibroEP2;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				D84BA51B2835F111008932A1 /* Restablecer.swift in Sources */,
 				D82D538B28346E68008F751B /* LoginViewController.swift in Sources */,
 				D8AD38F7286B90C600E62291 /* HomeViewController.swift in Sources */,
+				D80567D1286D22DD005A0EDB /* RecuperarViewController.swift in Sources */,
 				D8FE9D4D28344A640050B189 /* ViewController.swift in Sources */,
 				D8FE9D4928344A640050B189 /* AppDelegate.swift in Sources */,
 				B21E524728354927005DC5EB /* RegistrerViewController.swift in Sources */,
