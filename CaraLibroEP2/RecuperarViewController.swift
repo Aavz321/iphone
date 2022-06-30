@@ -13,6 +13,10 @@ class RecuperarViewController: UIViewController{
     
     @IBOutlet weak var emailTextField: UITextField!
     
+    @IBAction private func TapToCloseKeyboard(_ sender: UITapGestureRecognizer){
+        self.view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -27,7 +31,7 @@ class RecuperarViewController: UIViewController{
             
                 self.present(alertController, animated: true, completion: nil)
             }
-            let alertController = UIAlertController(title: "Correo enviado", message: "El correo de verificación se envió correctamente", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "Correo enviado", message: "El correo de verificación se envió correctamente, revisa tu apartado de spam!", preferredStyle: .alert)
             alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))
         
             self.present(alertController, animated: true, completion: nil)

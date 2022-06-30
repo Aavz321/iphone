@@ -16,6 +16,10 @@ class RegistrarViewController:UIViewController{
     
     @IBOutlet weak var signUpButton: UIButton!
     
+    @IBAction private func TapToCloseKeyboard(_ sender: UITapGestureRecognizer){
+        self.view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

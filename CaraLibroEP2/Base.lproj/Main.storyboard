@@ -33,11 +33,6 @@
                                     <segue destination="UOf-gA-DAU" kind="show" id="jtV-qR-Uao"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgK-fi-wPM">
-                                <rect key="frame" x="65" y="405" width="285" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Iniciar sesión"/>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wd7-Ib-hEp">
                                 <rect key="frame" x="0.0" y="88" width="414" height="250"/>
                                 <subviews>
@@ -59,15 +54,12 @@
                         <viewLayoutGuide key="safeArea" id="4ob-Hm-0GO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zgK-fi-wPM" firstAttribute="top" secondItem="iMi-5v-oDf" secondAttribute="bottom" constant="22" id="1lu-yx-fsJ"/>
                             <constraint firstItem="wd7-Ib-hEp" firstAttribute="top" secondItem="4ob-Hm-0GO" secondAttribute="top" id="K5E-9W-yJh"/>
                             <constraint firstItem="wd7-Ib-hEp" firstAttribute="leading" secondItem="4ob-Hm-0GO" secondAttribute="leading" id="SAf-l7-v89"/>
                             <constraint firstItem="4ob-Hm-0GO" firstAttribute="trailing" secondItem="iMi-5v-oDf" secondAttribute="trailing" constant="64" id="SGt-4g-eMK"/>
-                            <constraint firstItem="zgK-fi-wPM" firstAttribute="trailing" secondItem="iMi-5v-oDf" secondAttribute="trailing" id="SvK-aJ-BXL"/>
                             <constraint firstItem="iMi-5v-oDf" firstAttribute="leading" secondItem="4ob-Hm-0GO" secondAttribute="leading" constant="65" id="gHk-az-sEB"/>
                             <constraint firstItem="wd7-Ib-hEp" firstAttribute="trailing" secondItem="4ob-Hm-0GO" secondAttribute="trailing" id="j7E-ij-ACT"/>
                             <constraint firstItem="iMi-5v-oDf" firstAttribute="top" secondItem="wd7-Ib-hEp" secondAttribute="bottom" constant="10" id="tz3-Ku-Gcv"/>
-                            <constraint firstItem="zgK-fi-wPM" firstAttribute="leading" secondItem="iMi-5v-oDf" secondAttribute="leading" id="xoc-Xi-yTn"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Y3M-Cz-jVX"/>
@@ -162,6 +154,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vwg-ZB-uVD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="vwg-ZB-uVD" firstAttribute="trailing" secondItem="64n-Mg-QEc" secondAttribute="trailing" constant="30" id="0F4-KG-Z4p"/>
                             <constraint firstItem="a2V-vs-NuO" firstAttribute="leading" secondItem="8Bq-9j-vth" secondAttribute="leading" id="4XC-HN-uwY"/>
@@ -202,6 +195,9 @@
                             <constraint firstItem="a2V-vs-NuO" firstAttribute="top" secondItem="8Bq-9j-vth" secondAttribute="bottom" constant="7" id="yHV-bx-Tq1"/>
                             <constraint firstItem="RaM-iA-fs8" firstAttribute="trailing" secondItem="a2V-vs-NuO" secondAttribute="trailing" id="zNt-3N-wYK"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="f4A-Is-kfF" appends="YES" id="mjs-6j-dJd"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="GVq-hm-D6j"/>
                     <connections>
@@ -211,6 +207,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKG-dO-5Ol" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="f4A-Is-kfF">
+                    <connections>
+                        <action selector="TapToCloseKeyboard:" destination="UOf-gA-DAU" id="Lfw-qr-4v6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-52" y="794"/>
         </scene>
@@ -808,6 +809,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xKu-sO-DnP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="xKu-sO-DnP" firstAttribute="trailing" secondItem="l4m-oo-J30" secondAttribute="trailing" id="57Q-2t-GI5"/>
                             <constraint firstItem="xKu-sO-DnP" firstAttribute="bottom" secondItem="l4m-oo-J30" secondAttribute="bottom" id="ATg-Lv-Bbk"/>
@@ -818,6 +820,9 @@
                             <constraint firstItem="l4m-oo-J30" firstAttribute="leading" secondItem="xKu-sO-DnP" secondAttribute="leading" id="pNf-Oa-cVm"/>
                             <constraint firstItem="LFT-YP-sfu" firstAttribute="leading" secondItem="xKu-sO-DnP" secondAttribute="leading" id="sZX-iH-NAt"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Aph-Xd-4Hu" appends="YES" id="DuE-JX-8kM"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="cgE-UI-Lb2"/>
                     <connections>
@@ -826,6 +831,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o3G-E2-RdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="DTD-mm-CeS" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="Aph-Xd-4Hu">
+                    <connections>
+                        <action selector="TapToCloseKeyboard:" destination="tJ2-SI-89B" id="KzX-4E-oqE"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-2365" y="1118"/>
         </scene>
